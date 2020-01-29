@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74a411d8-5888-40d8-a0d1-909a3fff4fbb" name="Default Changelist" comment="" />
+    <list default="true" id="74a411d8-5888-40d8-a0d1-909a3fff4fbb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1X43dxbESL5LYvMHBadQF4tUkuZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -79,5 +85,9 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1580292795749" />
+    <state x="97" y="64" key="new project wizard" timestamp="1580293034112">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="97" y="64" key="new project wizard/0.23.1440.837@0.23.1440.837" timestamp="1580293034112" />
   </component>
 </project>
