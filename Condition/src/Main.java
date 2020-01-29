@@ -20,6 +20,9 @@ public class Main {
                 System.out.println("CONGRATS");
                 condition = false;
             }
+            else {
+                System.out.println("ERORR");
+            }
         }
     }
 }
