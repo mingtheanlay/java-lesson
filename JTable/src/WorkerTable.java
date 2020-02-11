@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
 
-public class Main extends JFrame {
+public class WorkerTable extends JFrame {
 
     // Initialize JLabel
     JLabel id = new JLabel("Enter your ID:");
@@ -22,8 +22,7 @@ public class Main extends JFrame {
     JButton btnClear = new JButton("Clear");
     JButton btnUpdate = new JButton("Update");
 
-    Main() {
-
+    WorkerTable() {
         // Create a table model and set a Column Identifiers to this model
         Object[] columns = {"Id", "First Name", "Salary"};
 
@@ -95,12 +94,6 @@ public class Main extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 // i = the index of the selected row
                 int i = table.getSelectedRow();
-                Object a = model1.getValueAt(i, 0);
-                txtID.setText(a.toString());
-                Object b = model1.getValueAt(i, 1);
-                txtID.setText(b.toString());
-                Object c = model1.getValueAt(i, 2);
-                txtID.setText(c.toString());
 
                 if (i >= 0) {
                     model1.setValueAt(txtID.getText(), i, 0);
@@ -153,7 +146,7 @@ public class Main extends JFrame {
     }
 
    public static void main(String args[]) {
-        new Main();
+        new WorkerTable();
     }
 
 }
