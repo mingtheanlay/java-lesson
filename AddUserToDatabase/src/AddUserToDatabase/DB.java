@@ -20,7 +20,7 @@ public class DB {
         Connection con = null;
          try {
             String url = "jdbc:sqlserver://localhost:1433; DatabaseName=users;"
-                    + "user=sa; password=mcuser@3012";
+                    + "user=sa; password=yourpw";
             con = DriverManager.getConnection(url);
       
             System.out.println("Connected"); 
